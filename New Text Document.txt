@@ -1,0 +1,1 @@
+color used in svg's : #2B65AC
