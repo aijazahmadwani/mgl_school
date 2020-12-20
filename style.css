@@ -1,18 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 body{
-  overflow-x: hidden;
+  margin: 0;
+  padding:0;
   font-family: Lato, sans-serif;
   color:#505962;
+
 }
 
 /*Navigation*/
+a.navbar-brand {
+  display: contents;
+}
 .navbar{
   text-transform: uppercase;
   font-weight:700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background:#2B65AC !important;
+  background:#1a4354 !important;
 }
 .navbar-brand img{
   height:2rem;
@@ -47,19 +52,16 @@ body{
 .narrow{
   width: 85%;
   margin: 1.5rem auto;
-  padding-top: 2rem;
 
 }
-.narrow h1{
-  font-size: 2.4rem;
-}
+
 .btn-secondary{
   border-width:medium;
   border-radius:0;
   text-transform: uppercase;
   font-size: 1.2rem;
   padding:.6rem 1.2rem;
-  margin:1rem;
+  margin:1rem 1rem 1rem 0;
   color:white ;
   background-color:#1ebba3;
   border-color: #1ebba3;
@@ -94,13 +96,9 @@ h3.heading{
 
 .feature h3{
   font-size: 1.3rem;
-  font-weight: 6
-  
-  
-  00;
   text-transform: uppercase;
-  margin-top: .5rem;
   padding-bottom: .4rem;
+  font-weight: 700;
 }
 .feature p{
   font-size: 1.1rem;
@@ -179,6 +177,7 @@ hr.socket{
 }
 .narrow{
   padding-top: 0;
+  width: 95%;
 }
 h3.heading{
   font-size:1.3rem;
@@ -205,6 +204,12 @@ h3.heading{
   margin:0 auto;
 }
 }
+
+@media (max-width: 576px) {
+  p.lead{
+    font-size: 1rem;
+  }
+ }
 
 
 
