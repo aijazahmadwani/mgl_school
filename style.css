@@ -144,6 +144,10 @@ footer{
   
   padding: 2rem 0 2rem;
   margin-top: 1rem;
+
+}
+#footer.jumbotron{
+  padding-bottom: 0;
 }
 footer img{
   height: 3rem;
@@ -164,7 +168,6 @@ footer svg.svg-inline--fa:hover{
 hr.socket{
   width: 100%;
   border-top: .2rem solid #666b71;
-  margin-top: 3rem;
 
 }
 
